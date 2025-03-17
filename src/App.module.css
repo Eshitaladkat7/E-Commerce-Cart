@@ -1,0 +1,61 @@
+/* App.module.css */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cartIcon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .products {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .cart {
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+  }
+  
+  .cartItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
